@@ -8,8 +8,16 @@
 生词表生成后可导入欧陆词典一类的app，快速预习一下，可以大幅提升阅读原版书籍时的体验。
 
 用Jupyter Notebook写的，解释和可调参数也都在里面，请自行点开generator.ipynb阅读使用。
+运行前请先安装nltk和textract库。
 
 
-TODO:
-- 对PDF的支持
-- 对mobi/epub的支持
+目前支持：
+- txt
+- pdf（文字版）
+- epub
+- doc/docx
+- csv
+- xls
+- xlsx
+
+非txt文件花的时间会久一点，对其他格式的支持不一定好，我没有测试特别多文件。
